@@ -1,0 +1,74 @@
+/* Container for the job/internship details section */
+.jobInternshipContainer {
+  margin-top: 4rem; /* Top margin for spacing */
+  padding: 2rem;
+  background-color: #f7fafc;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-left: 250px; /* Adjusted to match sidebar width */
+  flex-grow: 1; /* Ensure it takes up the remaining space */
+  position: relative; /* Ensure it respects z-index and positioning */
+  z-index: 1; /* Ensure it's above default content */
+}
+
+/* Heading styles */
+.jobInternshipContainer h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2d3748;
+  margin-bottom: 1.5rem;
+}
+
+/* Form group styles */
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+/* Label styles */
+.form-group > label {
+  display: block;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #4a5568;
+  margin-bottom: 0.5rem;
+}
+
+/* Select styles */
+.select {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #cbd5e0;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+}
+
+/* Button group styles */
+.buttonGroup {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+/* Primary button styles */
+.primaryButton {
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.25rem;
+  background-color: #4299e1;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/* Secondary button styles */
+.secondaryButton {
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.25rem;
+  background-color: #a0aec0;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/* Information text styles */
+.infoText {
+  color: #718096;
+  margin-top: 1.5rem;
+}

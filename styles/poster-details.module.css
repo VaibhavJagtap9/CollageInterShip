@@ -1,0 +1,49 @@
+/* Container for the poster details section */
+/* Container for the poster details section */
+.posterDetailsContainer {
+  margin-top: 4rem; /* Top margin for spacing */
+  padding: 2rem;
+  background-color: #f7fafc;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-left: 270px; /* Adjusted to accommodate sidebar width */
+}
+
+/* Heading styles */
+.posterDetailsContainer h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2d3748;
+  margin-bottom: 1.5rem;
+}
+
+/* Paragraph text styles */
+.posterDetailsContainer p {
+  color: #718096;
+  margin-top: 1rem;
+}
+
+/* Button group styles */
+.buttonGroup {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+/* Primary button styles */
+.primaryButton {
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.25rem;
+  background-color: #4299e1;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/* Secondary button styles */
+.secondaryButton {
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.25rem;
+  background-color: #a0aec0;
+  color: #ffffff;
+  cursor: pointer;
+}

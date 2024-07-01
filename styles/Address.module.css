@@ -1,0 +1,47 @@
+/* Container for the address section */
+.addressContainer {
+  margin-top: 4rem; /* Top margin for spacing */
+  padding: 2rem;
+  background-color: #f7fafc;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-left: 250px; /* Sidebar width */
+  padding-left: 2rem; /* Additional padding to avoid overlap */
+}
+
+/* Section title */
+.sectionTitle {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2d3748;
+  margin-bottom: 2rem;
+}
+
+/* Form styles */
+.addressForm {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Form group styles */
+.formGroup {
+  margin-bottom: 1.5rem;
+}
+
+/* Label styles */
+.formGroup > label {
+  display: block;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #4a5568;
+  margin-bottom: 0.5rem;
+}
+
+/* Input and select styles */
+.formControl {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #cbd5e0;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+}
